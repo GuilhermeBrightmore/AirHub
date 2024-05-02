@@ -141,10 +141,11 @@ local ColourDisplay = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local Abrir = Instance.new("TextButton")
 local UICorner_39 = Instance.new("UICorner")
+local OutputValue = Instance.new('IntValue')
 
 -- Properties:
 
-local OutputValue = Instance.new('IntValue')
+
 OutputValue.Name = "OutputValue"
 OutputValue.Parent = Slider
 OutputValue.Archivable = true
@@ -459,6 +460,7 @@ Principal.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Principal.BorderSizePixel = 0
 Principal.Position = UDim2.new(0.246035025, 0, 0.121984839, 0)
 Principal.Size = UDim2.new(0, 350, 0, 194)
+Principal.CanvasPosition = Vector2.new(0, 194)
 Principal.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
 
 Aimbot.Name = "Aimbot"
@@ -1171,7 +1173,7 @@ UICorner_39.Parent = Abrir
 
 -- Scripts:
 
-local function BJCHEUO_fake_script() -- Main_3.LocalScript 
+local function DLKOBS_fake_script() -- Main_3.LocalScript 
 	local script = Instance.new('LocalScript', Main_3)
 
 	local botao = script.Parent
@@ -1188,8 +1190,8 @@ local function BJCHEUO_fake_script() -- Main_3.LocalScript
 	
 	botao.Activated:Connect(abrir)
 end
-coroutine.wrap(BJCHEUO_fake_script)()
-local function CQRR_fake_script() -- PrisionLife.LocalScript 
+coroutine.wrap(DLKOBS_fake_script)()
+local function QRTX_fake_script() -- PrisionLife.LocalScript 
 	local script = Instance.new('LocalScript', PrisionLife)
 
 	local botao = script.Parent
@@ -1206,8 +1208,8 @@ local function CQRR_fake_script() -- PrisionLife.LocalScript
 	
 	botao.Activated:Connect(abrir)
 end
-coroutine.wrap(CQRR_fake_script)()
-local function KPNIBK_fake_script() -- Misc.LocalScript 
+coroutine.wrap(QRTX_fake_script)()
+local function NNTT_fake_script() -- Misc.LocalScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	local botao = script.Parent
@@ -1224,8 +1226,8 @@ local function KPNIBK_fake_script() -- Misc.LocalScript
 	
 	botao.Activated:Connect(abrir)
 end
-coroutine.wrap(KPNIBK_fake_script)()
-local function MROMSY_fake_script() -- Fechar.LocalScript 
+coroutine.wrap(NNTT_fake_script)()
+local function LDRF_fake_script() -- Fechar.LocalScript 
 	local script = Instance.new('LocalScript', Fechar)
 
 	local close = script.Parent
@@ -1237,8 +1239,8 @@ local function MROMSY_fake_script() -- Fechar.LocalScript
 	
 	close.Activated:Connect(fechar)
 end
-coroutine.wrap(MROMSY_fake_script)()
-local function IKOFJ_fake_script() -- Min.LocalScript 
+coroutine.wrap(LDRF_fake_script)()
+local function YJPA_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local close = script.Parent
@@ -1252,8 +1254,8 @@ local function IKOFJ_fake_script() -- Min.LocalScript
 	close.Activated:Connect(fechar)
 	
 end
-coroutine.wrap(IKOFJ_fake_script)()
-local function KPAKJ_fake_script() -- Nome.MainScript 
+coroutine.wrap(YJPA_fake_script)()
+local function JIIZPY_fake_script() -- Nome.MainScript 
 	local script = Instance.new('LocalScript', Nome)
 
 	local frame = script.Parent
@@ -1266,8 +1268,8 @@ local function KPAKJ_fake_script() -- Nome.MainScript
 	frame.PlayerImage.Image = content
 	frame.PlayerName.Text = player.Name
 end
-coroutine.wrap(KPAKJ_fake_script)()
-local function YSHWO_fake_script() -- Name.LocalScript 
+coroutine.wrap(JIIZPY_fake_script)()
+local function GBYUBK_fake_script() -- Name.LocalScript 
 	local script = Instance.new('LocalScript', Name)
 
 	-- Tabela para manter o controle das etiquetas existentes
@@ -1368,8 +1370,8 @@ local function YSHWO_fake_script() -- Name.LocalScript
 	
 	
 end
-coroutine.wrap(YSHWO_fake_script)()
-local function NCCB_fake_script() -- Lines.LocalScript 
+coroutine.wrap(GBYUBK_fake_script)()
+local function QDAEJRL_fake_script() -- Lines.LocalScript 
 	local script = Instance.new('LocalScript', Lines)
 
 	local isEnabled = false  -- Variável booleana para controlar ligar/desligar das linhas
@@ -1482,8 +1484,8 @@ local function NCCB_fake_script() -- Lines.LocalScript
 	updatePlayerLines()
 	
 end
-coroutine.wrap(NCCB_fake_script)()
-local function LHGRXVL_fake_script() -- Box.LocalScript 
+coroutine.wrap(QDAEJRL_fake_script)()
+local function TAXO_fake_script() -- Box.LocalScript 
 	local script = Instance.new('LocalScript', Box)
 
 	local toogleesp = false
@@ -1556,8 +1558,8 @@ local function LHGRXVL_fake_script() -- Box.LocalScript
 	end)
 	
 end
-coroutine.wrap(LHGRXVL_fake_script)()
-local function ENSYON_fake_script() -- HeadESP.LocalScript 
+coroutine.wrap(TAXO_fake_script)()
+local function QEVYWR_fake_script() -- HeadESP.LocalScript 
 	local script = Instance.new('LocalScript', HeadESP)
 
 	local toogleesp = false
@@ -1630,8 +1632,8 @@ local function ENSYON_fake_script() -- HeadESP.LocalScript
 	end)
 	
 end
-coroutine.wrap(ENSYON_fake_script)()
-local function UPGZ_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(QEVYWR_fake_script)()
+local function VFFEIB_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	-- Variável de estado para controlar se o aimbot está ativado
@@ -1655,6 +1657,7 @@ local function UPGZ_fake_script() -- Aimbot.LocalScript
 	local fovvalue = script.Parent.Parent.FovSize.Slider.OutputLabel
 	local fovSize
 	local fovcolour = script.Parent.Parent.Parent.Parent.ColourWheel.Frame.ColourDisplay.ImageColor3
+	local wheelcolour = script.Parent.Parent.Parent.Parent.ColourWheel.Frame.ColourDisplay
 	
 	
 	local function checkfov()
@@ -1956,13 +1959,11 @@ local function UPGZ_fake_script() -- Aimbot.LocalScript
 						end
 					end
 	
-					local function onRenderStep()
+					while wheelcolour.Visible == true do
 						fovcolour = script.Parent.Parent.Parent.Parent.ColourWheel.Frame.ColourDisplay.ImageColor3
 						fovFrame.BackgroundColor3 = fovcolour
+						wait()
 					end
-	
-					-- Conectar à função onRenderStep ao evento RenderStepped
-					RunService.RenderStepped:Connect(onRenderStep)
 				end)
 			end
 		end
@@ -1972,8 +1973,8 @@ local function UPGZ_fake_script() -- Aimbot.LocalScript
 	script.Parent.Activated:Connect(toggle)
 	
 end
-coroutine.wrap(UPGZ_fake_script)()
-local function MHDPPQ_fake_script() -- TeamCheck.ToogleScript 
+coroutine.wrap(VFFEIB_fake_script)()
+local function BMER_fake_script() -- TeamCheck.ToogleScript 
 	local script = Instance.new('LocalScript', TeamCheck)
 
 	local status = true
@@ -2000,8 +2001,8 @@ local function MHDPPQ_fake_script() -- TeamCheck.ToogleScript
 	
 	script.Parent.Activated:Connect(toggle)
 end
-coroutine.wrap(MHDPPQ_fake_script)()
-local function VJBANZQ_fake_script() -- TriggerBot.ToogleScript 
+coroutine.wrap(BMER_fake_script)()
+local function ZGBQKJ_fake_script() -- TriggerBot.ToogleScript 
 	local script = Instance.new('LocalScript', TriggerBot)
 
 	local status = true
@@ -2028,8 +2029,8 @@ local function VJBANZQ_fake_script() -- TriggerBot.ToogleScript
 	
 	script.Parent.Activated:Connect(toggle)
 end
-coroutine.wrap(VJBANZQ_fake_script)()
-local function CSRAV_fake_script() -- WallCheck.ToogleScript 
+coroutine.wrap(ZGBQKJ_fake_script)()
+local function VQCT_fake_script() -- WallCheck.ToogleScript 
 	local script = Instance.new('LocalScript', WallCheck)
 
 	local status = true
@@ -2056,8 +2057,8 @@ local function CSRAV_fake_script() -- WallCheck.ToogleScript
 	
 	script.Parent.Activated:Connect(toggle)
 end
-coroutine.wrap(CSRAV_fake_script)()
-local function MHMDJCJ_fake_script() -- Fov.ToogleScript 
+coroutine.wrap(VQCT_fake_script)()
+local function XSFATG_fake_script() -- Fov.ToogleScript 
 	local script = Instance.new('LocalScript', Fov)
 
 	local status = true
@@ -2084,8 +2085,8 @@ local function MHMDJCJ_fake_script() -- Fov.ToogleScript
 	
 	script.Parent.Activated:Connect(toggle)
 end
-coroutine.wrap(MHMDJCJ_fake_script)()
-local function EWKQG_fake_script() -- Slider.LocalScript 
+coroutine.wrap(XSFATG_fake_script)()
+local function PTPKE_fake_script() -- Slider.LocalScript 
 	local script = Instance.new('LocalScript', Slider)
 
 	local mouse = game.Players.LocalPlayer:GetMouse()
@@ -2132,8 +2133,8 @@ local function EWKQG_fake_script() -- Slider.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EWKQG_fake_script)()
-local function VCYZD_fake_script() -- FovColour.ToogleScript 
+coroutine.wrap(PTPKE_fake_script)()
+local function OJQEXZY_fake_script() -- FovColour.ToogleScript 
 	local script = Instance.new('LocalScript', FovColour)
 
 	local status = true
@@ -2163,8 +2164,8 @@ local function VCYZD_fake_script() -- FovColour.ToogleScript
 	
 	script.Parent.Activated:Connect(toggle)
 end
-coroutine.wrap(VCYZD_fake_script)()
-local function SEOFZ_fake_script() -- Safe.LocalScript 
+coroutine.wrap(OJQEXZY_fake_script)()
+local function WSFCX_fake_script() -- Safe.LocalScript 
 	local script = Instance.new('LocalScript', Safe)
 
 	local instancia = script.Parent
@@ -2294,8 +2295,8 @@ local function SEOFZ_fake_script() -- Safe.LocalScript
 	
 	instancia.Activated:Connect(safe)
 end
-coroutine.wrap(SEOFZ_fake_script)()
-local function LEUP_fake_script() -- Discord.LocalScript 
+coroutine.wrap(WSFCX_fake_script)()
+local function TRFZ_fake_script() -- Discord.LocalScript 
 	local script = Instance.new('LocalScript', Discord)
 
 	local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -2314,8 +2315,8 @@ local function LEUP_fake_script() -- Discord.LocalScript
 	
 	
 end
-coroutine.wrap(LEUP_fake_script)()
-local function HSLJY_fake_script() -- Frame_2.ColourWheelHandler 
+coroutine.wrap(TRFZ_fake_script)()
+local function BYQFW_fake_script() -- Frame_2.ColourWheelHandler 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local colourWheel = script.Parent:WaitForChild("ColourWheel")
@@ -2408,8 +2409,8 @@ local function HSLJY_fake_script() -- Frame_2.ColourWheelHandler
 		updateColour(centreOfWheel)
 	end)
 end
-coroutine.wrap(HSLJY_fake_script)()
-local function DJMSJAQ_fake_script() -- Abrir.LocalScript 
+coroutine.wrap(BYQFW_fake_script)()
+local function IQQR_fake_script() -- Abrir.LocalScript 
 	local script = Instance.new('LocalScript', Abrir)
 
 	local instancia = script.Parent
@@ -2422,8 +2423,8 @@ local function DJMSJAQ_fake_script() -- Abrir.LocalScript
 	
 	instancia.Activated:Connect(abrir)
 end
-coroutine.wrap(DJMSJAQ_fake_script)()
-local function BLZTZC_fake_script() -- Main.LocalScript 
+coroutine.wrap(IQQR_fake_script)()
+local function ACPP_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local frame = script.Parent.Main
@@ -2431,8 +2432,8 @@ local function BLZTZC_fake_script() -- Main.LocalScript
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(BLZTZC_fake_script)()
-local function WADKNFX_fake_script() -- Main.Notificacao 
+coroutine.wrap(ACPP_fake_script)()
+local function QZPFW_fake_script() -- Main.Notificacao 
 	local script = Instance.new('LocalScript', Main)
 
 	local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -2444,4 +2445,4 @@ local function WADKNFX_fake_script() -- Main.Notificacao
 		Duration = 5
 	})
 end
-coroutine.wrap(WADKNFX_fake_script)()
+coroutine.wrap(QZPFW_fake_script)()
